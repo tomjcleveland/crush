@@ -32,7 +32,7 @@ func main() {
 ```
 
 ## Aside
-If you ever decided to compile a formal EBNF description using the [Go Spec](https://golang.org/ref/spec), you'd actually discover that pretty much *nothing* we would call Go conforms to this grammar, because most of us use newlines (`\n`) instead of semicolons (`;`).
+If you ever decided to compile a formal [EBNF](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_Form) description using the [Go Spec](https://golang.org/ref/spec), you'd actually discover that pretty much *nothing* we would call Go conforms to this grammar, because most of us use newlines (`\n`) instead of semicolons (`;`).
 
 The Go people sell this as a [feature](https://golang.org/ref/spec#Semicolons), which ok I guess it is, but then can't you *update the frigging EBNF?*
 
