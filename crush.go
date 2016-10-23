@@ -1,3 +1,4 @@
+// Package crush crushes Go source files into a single line.
 package crush
 
 import (
